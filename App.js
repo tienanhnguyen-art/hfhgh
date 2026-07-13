@@ -118,3 +118,5 @@ function render(list){
     }
     list.forEach(w => grid.appendChild(createCard(w)));
 }
+
+const defaultWords = [
